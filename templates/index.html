@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>Milk Farm Ranks</title>
+</head>
+<body>
+
+<div class="ranks">
+    <div class="owen">
+        <h2>{{ val[0] }}</h2><img src="/static/icons/owen_circle.png" height="150px">
+        <p><br>{{ val[1] }} {{ val[2] }}<br>{{ val[3] }}{{ val[4] }}<br>{{ val[5] }} WR<br>{{ val[6] }}<br></p><img src={{ val[8] }} height="50px">
+    </div>
+    <div class = "varun">
+        <br>
+        <h2>{{ val2[0] }}</h2><img src="/static/icons/varun_circle.png" height="150px">
+        <p><br>{{ val2[1] }} {{ val2[2] }}<br>{{ val2[3] }}{{ val2[4] }}<br>{{ val2[5] }} WR<br>{{ val2[6] }}<br></p><img src={{ val2[8] }} height="50px">
+    </div>
+    <div class = "quinn">
+        <br>
+        <h2>{{ val3[0] }}</h2>
+        <img src="/static/icons/quinn_circle.png" height="150px">
+        <p><br>{{ val3[1] }} {{ val3[2] }}<br>{{ val3[3] }}{{ val3[4] }}<br>{{ val3[5] }} WR<br>{{ val3[6] }}<br></p><img src={{ val3[8] }} height="50px">
+    </div>
+    <div class = "damon">
+        <br>
+        <h2>{{ val4[0] }}</h2>
+        <img src="/static/icons/damon_circle.png" height="150px">
+        <p><br>{{ val4[1] }} {{ val4[2] }}<br>{{ val4[3] }}{{ val4[4] }}<br>{{ val4[5] }} WR<br>{{ val4[6] }}<br></p><img src={{ val4[8] }} height="50px">
+    </div>
+    <div class = "lukas">
+        <h2>{{ val5[0] }}</h2>
+        <img src="/static/icons/lukas_circle.png" height="150px">
+        <p><br>{{ val5[1] }} {{ val5[2] }}<br>{{ val5[3] }}{{ val5[4] }}<br>{{ val5[5] }} WR<br>{{ val5[6] }}<br></p><img src={{ val5[8] }} height="50px">
+    </div>
+</div>
+</body>
+</html>
